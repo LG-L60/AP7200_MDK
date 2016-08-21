@@ -1,19 +1,22 @@
 # AP7200_MDK
-AP7200是深圳市雨滴科技有限公司开发的一款Android手机开发模块
-AP7200_MDK是配套的Android手机开发板
+Исходники ядра с возможностью компиляции lk.bin, preloader, модулей и т.п.
 
-全新(部)编译
+Полная сборка
 ------------
 ./mk new
 
-单独编译内核
+Сборка ядра
 ------------
 ./mk new kernel
 
-生成bootimage
+сборка bootimage
 -------------
 ./mk bootimage
 
-编译内核模块
+Сборка модулей
 ------------
 ./mk r k path_to_module
+
+Сборка lite kernel
+------------
+./mk n lk
